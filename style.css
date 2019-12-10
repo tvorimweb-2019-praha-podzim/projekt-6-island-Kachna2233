@@ -49,6 +49,10 @@ body {
     font-style: italic;
 }
 
+.cela_stranka {
+    background: white;
+}
+
 
 /* MENU */
 
@@ -167,6 +171,8 @@ p {
 /* PATICKA */
 
 .paticka {
+    background-color: lightgrey;
+    box-shadow: inset 0px 20px 20px -10px;
     color: gray;
     font-size: 10px;
     font-weight: 500;
@@ -176,10 +182,6 @@ p {
 .paticka a {
     color: gray;
     font-weight: 500;
-}
-
-.cela_stranka {
-    box-shadow: 0px 5px 10px 3px grey; 
 }
 
 @media (min-width: 500px) {
@@ -324,7 +326,6 @@ p {
 
     .paticka {
         padding: 30px 0 0 0;
-        margin: 0 0 0 150px;
     }
         
 }
